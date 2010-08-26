@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="fill_parent" 
+    android:layout_width="fill_parent"
+    android:background="#000044">
+    <TableRow> 
+        <TextView 
+            android:text="Search for:"
+            android:width ="120px"
+            />
+        <EditText 
+            android:id="@+id/txtSearchFor" 
+            android:width="200px"/>
+    </TableRow> 
+    
+    <TableRow> 
+        <TextView 
+            android:text="Near address:"
+            android:width ="120px"/>
+        <EditText 
+            android:id="@+id/txtAddress" 
+            android:width="200px" />
+    </TableRow> 
+    <TableRow>
+        <Button 
+            android:id="@+id/buttonGO" 
+            android:text="GO" />
+    </TableRow>
+
+</TableLayout>

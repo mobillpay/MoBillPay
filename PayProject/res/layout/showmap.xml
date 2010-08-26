@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:id="@+id/myLayout"
+    android:layout_height="wrap_content" 
+    android:layout_width="wrap_content"> 
+<TableRow> 
+   <TextView 
+     android:id="@+id/AddressCheckIn"
+     android:layout_span="4">
+    </TextView>
+</TableRow> 
+<TableRow> 
+	<Button
+		android:id="@+id/buttonCheckIn" 
+		android:layout_width="80px"
+		android:text="Check In"	>
+	</Button>
+    <Button android:id="@+id/btnHome"
+    	android:layout_width="80px"
+		android:text="Home">
+	</Button>
+    <Button android:id="@+id/btnBack"
+ 		android:layout_width="80px"
+		android:text="Back"/>       
+     <Button
+			android:id="@+id/buttonPay"
+		    android:layout_width="80px"
+			android:text="Pay">
+		</Button>
+ </TableRow> 
+ 
+ <com.google.android.maps.MapView 
+	android:id="@+id/simpleGM_map" 
+   android:apiKey="0zsNM7XWwy_MZE2BvlQxLKY_3A5xTs21_1XnfwA"/>
+</TableLayout>
